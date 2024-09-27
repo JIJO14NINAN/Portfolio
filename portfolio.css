@@ -1,0 +1,381 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    font-family: 'Red Hat Display';
+}
+body{
+    /* background-color: #6A9C89; */
+    background-image: linear-gradient( #6A9C89, #053925);
+    overflow-x: hidden;
+}
+html{
+    scroll-behavior: smooth;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #16423C;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    padding: 1rem 6%;
+    width: 100%;
+    font-family: 'RedHat';
+}
+.logo{
+    color: white;
+    font-size: large;
+    font-size: 40px;
+}
+nav a{
+    color: white;
+    font-family: animosa;
+    font-size: 20px;
+    margin-left: 75px;
+    /* transition: 0.3s ease; */
+    /* transform: scale(1.2); */
+}
+nav a:hover{
+    color:  #6A9C89;
+    /* transform: scale(1.2); */
+}
+#home{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home-content{
+    position: relative;
+    right: 275px;
+}
+.home-content h2{
+    color: white;
+    margin-bottom: 10px;
+    font-weight: bolder;
+    font-size: 30px;
+}
+.home-content h1{
+    font-size: 50px;
+    margin-bottom: 10px;
+    font-family: 'Liber Bodioni';
+}
+.home-content p{
+    margin-top: 10px;
+}
+.image{
+    position: relative;
+    left: 675px;
+    background-image: radial-gradient(#2d6947);
+}
+
+.image img{
+    height: 330px;
+    width: 280px;
+    border-radius: 50%;
+    background-image: linear-gradient(#24faa8,#0c5036);
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon{
+    width: 45px;
+    height: 45px;
+    position: relative;
+    right:750px;
+    top: 140px;
+    transition: 0.3s ease;
+}
+
+.icon:hover{
+    transform: scale(1.2);
+}
+.Resume{
+    color: #16423C;
+    padding: 10px 20px 10px 20px;
+    background-color: #96edcc;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 50px;
+    position: relative;
+    top: 200px;
+    right: 630px;
+    transition: 0.3s ease;
+}
+
+.Resume:hover{
+    transform: scale(1.2);
+}
+
+#about{
+    height: 100vh;
+    scroll-margin-top: 85px ;
+}
+.about-content h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    padding: 40px;
+    width: 100%;
+    color: black;
+    letter-spacing: 10px;
+    margin:auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    background-color: #63f0ba;
+    background-image: linear-gradient(#12895b 40%,#0c5036);
+}
+.about-content p{
+    text-align: center;
+    font-size: 20px;
+}
+.education h1{
+    text-align: center;
+    position: relative;
+    top: 50px;
+    font-size: 35px;
+}
+.school{
+    border: 1px solid black;
+    font-size: 20px;
+    width: fit-content;
+    margin: auto;
+    margin-top: 110px;
+    padding: 30px;
+    border-radius: 7cqb;
+    background-color: #16423C;
+    color: white;
+}
+.line{
+    width: 5px;
+    height: 250px;
+    background-color: #41e9a9;
+    margin: auto;
+    background-image: linear-gradient(#24faa8,#0c5036);
+}
+.college{
+    border: 1px solid black;
+    font-size: 20px;
+    width: fit-content;
+    margin: auto;
+    padding: 30px;
+    border-radius: 70px;
+    background-color: #16423C;
+    color: white;
+    /* margin-top: 30px;
+    margin-left: 200px; */
+}
+#skill{
+    height: 100vh;
+    scroll-margin-top: 45px ;
+}
+.skill-content h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    padding: 40px;
+    width: 100%;
+    color: black;
+    letter-spacing: 10px;
+    margin:auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    background-color: #63f0ba;
+    background-image: linear-gradient(#12895b 40%,#0c5036);
+    position: relative;
+    top: 40px;
+}
+.skill-content{
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 80px;
+    /* position: relative;
+    top: 60px; */
+}
+.image-position{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    gap: 150px;
+    row-gap: 55px;
+    column-gap: 250px;
+    justify-content: center;
+}
+.img{
+    height: 90px;
+    width: 170px; 
+}
+#contact{
+    height:75vh;
+    scroll-margin-top: 80px;
+}
+#contact h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    padding: 40px;
+    width: 100%;
+    color: black;
+    letter-spacing: 10px;
+    margin:auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    background-color: #63f0ba;
+    background-image: linear-gradient(#12895b 40%,#0c5036);
+}
+.contact_pos{
+    text-align: center;
+}
+.Rectangle1 input{
+    width: 500px;
+    height: 50px;
+    background-color: rgb(191, 208, 225);
+    border: none;
+    border-radius: 15px;
+    padding: 16px 18px;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.8);
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    position: relative;
+    left: 440px;
+    top: 5px;
+}
+
+.Rectangle1 label{
+    position: relative;
+    left: 420px;
+    color: white;
+}
+
+.Rectangle1 input::placeholder {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 18px;
+}
+
+.Rectangle2 textarea {
+    width: 500px;
+    height: 150px;
+    background-color: rgb(191, 208, 225);
+    border: none;
+    border-radius: 15px;
+    padding: 16px 18px;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.8);
+    box-sizing: border-box;
+    resize: none; /* Prevents resizing of the textarea */
+    position: relative;
+    left: 420px;
+    top: 5px;
+}
+
+.Rectangle2 textarea::placeholder {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 18px;
+}
+.Rectangle2 label{
+    position: relative;
+    left: 420px;
+    color: white;
+}
+/* .form{
+    position: relative;
+    left: 50px;
+    text-align: center;
+    position: relative;
+    top: 30px;
+} */
+ .register{
+    position: relative;
+    left: 700px;
+    top: 50px;
+ }
+ .register button{
+    color: #16423C;
+    padding: 10px 20px 10px 20px;
+    background-color: #96edcc;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 50px;
+    top: 200px;
+    right: 630px;
+    transition: 0.3s ease;
+ }
+ .register button:hover{
+    transform: scale(1.2);
+ }
+
+ footer{
+    height: 100px;
+    width: 100%;
+ }
+
+ .fo{
+    position: relative;
+    left:500px;
+    /* bottom: 130px; */
+    display: inline;
+    /* border: 1px solid; */
+    width: 30%;
+    margin: 30px;
+    color: white;
+ }
+
+ .pho{
+    position: relative;
+    right: 10px;
+    height: 20px;
+    /* left: 60px; */
+    display: inline;
+ }
+
+ .mail{
+    position: relative;
+    height: 25px;
+    display: inline;
+    top: 8px;
+    /* bottom: 77px; */
+    right: 10px;
+ } 
+
+ footer img{
+    color: #24faa8;
+    display: block;
+    cursor: pointer;
+ }
+
+
+ .fo p{
+    position: relative;
+    left: 90px;
+    color: white;
+    bottom: 22px;
+ }
+
+ .fo1{
+    position: relative;
+    left: 650px;
+    /* bottom: 100px; */
+    margin-left:30px ;
+    /* border: 1px solid; */
+    width: 30%;
+    display: inline;
+    color: white;
+ }
+ .fo1 p{
+    position: relative;
+    left: 40px;
+    color: white;
+    bottom: 100px;
+ }
